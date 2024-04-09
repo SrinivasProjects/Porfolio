@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-9">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivas Portfolio</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: aqua;
+            color: black;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: black;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        nav ul li a:hover {
+            color: white;
+
+
+        }
+        
+.maj{
+    margin: 30px 650px;
+    width: 30%;
+    height: 50%;
+}
+.maj-d{
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    border: aqua 1px solid;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    color: aqua;
+    font-size: 2rem;
+    
+    margin: 5% 5%;
+}
+
+.button:hover{
+    color: white;
+    
+}
+       
+
+    </Style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Srinivas Naidu Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="ContectMe.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+           <br>
+           <br>
+            <h2 class="maj">Mini projects</h4>
+              <br> 
+        </section>
+        <h3 class="maj-d">Clock System and games like snake game and tic tac toe</h3>
+        <br>
+        <h3 class="maj-d">The development of a simple clock that updates every second in C++ involves several key concepts, including handling time, updating the display, and implementing a loop for continuous execution. Here's a theoretical explanation of how such a clock could be implemented in C++:</h3>
+        <br><h3 class="maj-d">Time Handling:
+
+            C++ provides various libraries for handling time-related operations. One commonly used library is <chrono>, which provides functionalities for time measurement and manipulation.
+            To create a clock that updates every second, we'll need to obtain the current time and then update the display accordingly.
+            The std::chrono::steady_clock or std::chrono::system_clock can be used to retrieve the current time.</h3>
+            <br>
+            <p class="maj-d">Display Update:
+
+                The display update involves showing the current time on the screen or console.
+                This can be accomplished using standard output operations in C++, such as std::cout.
+                The current time obtained from the time handling step needs to be formatted appropriately before displaying it to the user.</p>
+                <br>
+                <a href="https://github.com/SrinivasProjects?" class="button">Go to Github</a>
+    </main>
+</body>
+
+</html>

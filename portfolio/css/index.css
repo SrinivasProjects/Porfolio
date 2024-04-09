@@ -1,0 +1,217 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: aqua;
+    color: black;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul li a:hover {
+    color: white;
+
+
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 84px;
+}
+
+.firstSection>div {
+    width: 35%;
+
+
+
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: -15px 0;
+}
+
+
+.purple {
+    color: aqua;
+}
+
+#element {
+    color: aqua;
+
+}
+.SecondSection{
+  max-width: 80vw;
+  margin: auto;
+  
+}
+.text-grey{
+    color: aqua;
+    margin: auto;
+}
+
+
+main hr{
+background-color: aqua;
+}
+
+.SecondSection h1{
+    font-size: 1.9rem;
+ 
+    
+    
+}
+.SecondSection .box{
+    background-color: aqua;
+    width: 80vw;
+    height: 2px;
+    margin: 36px 0;
+    display: flex;
+}
+.SecondSection .vertical{
+ height: 93px;
+ width: 1px;
+ background-color: white;
+ margin: 0 100px;
+}
+.height{
+
+    height: 15vh;
+}
+
+.social-media{
+ justify-content: space-around;
+ text-align:center;
+ gap: 3rem;
+
+
+}
+
+
+.fa-facebook{
+    color: aqua;
+    gap: 3rem;
+
+}
+.fa-facebook:hover{
+    color: white;
+
+}
+
+.fa-linkedin{
+    color: aqua;
+    gap: 5rem;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+
+.fa-envelope{
+    color: aqua;
+}
+.fa-envelope:hover{
+    color: white;
+}
+.fa-whatsapp{
+    color: aqua;
+}
+.fa-whatsapp:hover{
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    border: aqua 1px solid;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    color: aqua;
+    
+    margin: 5% 5%;
+}
+
+.button:hover{
+    color: white;
+    
+}
+
+@media only screen and (min-width: 320px) { /* Adjust breakpoint as needed */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: aqua;
+        color: black;
+    
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 10px; /* Adjust margin */
+    }
+
+    .firstSection {
+        flex-direction: row; /* Revert to horizontal layout */
+        justify-content: space-around;
+        margin: 50px 10%; /* Adjust margin */
+    }
+
+    .firstSection>div {
+        width: 35%; /* Revert width */
+    }
+
+    .SecondSection .box {
+        display: block; /* Display box */
+    }
+
+    .social-media {
+        justify-content: space-around;
+    }
+
+    .button {
+        margin: 5% 5%; /* Revert margin */
+    }
+}

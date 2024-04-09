@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-9">
+    <meta http-equiv="x-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Srinivas Portfolio</title>
+    <Style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: aqua;
+            color: black;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            color: black;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        nav ul li a:hover {
+            color: white;
+
+
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 84px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+
+
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .social-media{
+ justify-content: space-around;
+ text-align:center;
+ gap: 3rem;
+ size: 3rem;
+ font-size: 3rem;
+
+
+}
+
+
+.fa-facebook{
+    color: aqua;
+    gap: 3rem;
+
+}
+.fa-facebook:hover{
+    color: white;
+
+}
+
+.fa-linkedin{
+    color: aqua;
+    gap: 5rem;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+
+.fa-envelope{
+    color: aqua;
+}
+.fa-envelope:hover{
+    color: white;
+}
+.fa-whatsapp{
+    color: aqua;
+}
+.fa-whatsapp:hover{
+    color: white;
+}
+
+       
+
+    </Style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Srinivas Naidu Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="ContectMe.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section style="margin: 0 auto; width: 50%;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="https://api.web3forms.com/submit" method="POST" style="text-align: left; border: 2px solid aqua; padding: 20px; background-color: rgb(0, 0, 33); color: aqua;">
+                <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 20px;">
+                    <input type="hidden" name="access_key" value="3229a695-88ad-45f0-915d-006fe8a79f45">
+                    <label for="name" style="flex: 1; color: aqua;">Name:</label>
+                    <input type="text" id="name" name="name" required style="flex: 2; padding: 9px; margin-left: 10px; background-color: rgb(0, 0, 33); color: white;">
+                    <label for="surname" style="flex: 1; margin-left: 10px; color: aqua;">Surname:</label>
+                    <input type="text" id="surname" name="surname" required style="flex: 2; padding: 9px; margin-left: 10px; background-color: rgb(0, 0, 33); color: white;">
+                </div>
+        
+                <label for="email" style="display: block; margin-bottom: 10px; color: aqua;">Email:</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 20px; background-color: rgb(0, 0, 33); color: white;">
+        
+                <label for="message" style="display: block; margin-bottom: 10px; color: aqua;">Message:</label>
+                <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; margin-bottom: 20px; background-color: rgb(0, 0, 33); color: white;"></textarea>
+        
+                <label for="task" style="display: block; margin-bottom: 10px; color: aqua;">Task:</label>
+                <select id="task" name="task" required style="width: 100%; padding: 10px; margin-bottom: 20px; background-color: rgb(0, 0, 33); color: white;">
+                    <option value="" style="color: aqua;">Select Task</option>
+                    <option value="internship" style="color: aqua;">Internship</option>
+                    <option value="freelancing" style="color: aqua;">Freelancing</option>
+                    <option value="joboffer" style="color: aqua;">Job Offer</option>
+                </select>
+        
+                <input type="submit" value="Submit" style="background-color: #4CAF50; color: aqua; padding: 10px 20px; border: none; cursor: pointer;">
+            </form>
+        </section>
+        <br>
+        <p style="text-align: center;">Once the form has been submited i will Contact you as soon as possible</p>
+        <br>
+        <br>
+
+        <div class="social-media">
+                    
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/srinivas-naidu-956a481b8/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:naidusrinivas035@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/919172293526"><i class="fa-brands fa-whatsapp"></i></a>
+            <br>
+           
+        
+    </main>
+</body>
+
+</html>
